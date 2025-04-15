@@ -19,6 +19,7 @@ As propriedades e tipos de valores para cada propriedade desse objeto devem ser:
 var pessoa = {
   nome: 'Cleiton',
   sobrenome: 'Carlos',
+  sexo: 'Masculino',
   idade: 25,
   altura: 1.67,
   peso: 66,
