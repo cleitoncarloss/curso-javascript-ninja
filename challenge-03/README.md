@@ -101,19 +101,19 @@ pessoa.nomeCompleto();//Cleiton Carlos
 Qual a idade da pessoa? (Use a instrução para responder e comentários
 inline ao lado da instrução para mostrar qual foi a resposta retornada)
 */
-pessoa.idade();//25
+pessoa.mostrarIdade();//25
 
 /*
 Qual o peso da pessoa? (Use a instrução para responder e comentários
 inline ao lado da instrução para mostrar qual foi a resposta retornada)
 */
-pessoa.peso();//66
+pessoa.mostrarPeso();//66
 
 /*
 Qual a altura da pessoa? (Use a instrução para responder e comentários
 inline ao lado da instrução para mostrar qual foi a resposta retornada)
 */
-pessoa.atura();//1.67
+pessoa.mostrarAltura();//1.67
 
 /*
 Faça a `pessoa` fazer 3 aniversários.
