@@ -22,7 +22,7 @@ var pessoa = {
   idade: 25,
   altura: 1.67,
   peso: 66,
-  andando: true,
+  andando: false,
   caminhouQuantosMetros: 0
 }
 
@@ -47,6 +47,7 @@ booleano que representa "verdadeiro";
 */
 pessoa.andar = function(metrosCaminhados) {
   this.caminhouQuantosMetros += metrosCaminhados;
+  this.andando = true;
 }
 
 /*
