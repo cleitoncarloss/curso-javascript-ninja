@@ -128,7 +128,7 @@ Quantos anos a `pessoa` tem agora? (Use a instrução para responder e
 comentários inline ao lado da instrução para mostrar qual foi a resposta
 retornada)
 */
-pessoa.idade();//28
+pessoa.idade;//28
 
 /*
 Agora, faça a `pessoa` caminhar alguns metros, invocando o método `andar` 3x,
@@ -199,7 +199,7 @@ pessoa.apresentacao = function() {
   mensagemSexo = 'a'
   metrosCaminhados = 'metros'
 
-  return 'Olá, eu sou ' + mensagemSexo + pessoa.nomeCompleto() + ' tenho ' + pessoa.idade() + ' ' + mensagemIdade + pessoa.mostrarAltura() + ' meu peso é ' + pessoa.mostrarPeso() + ' e, só hoje, eu já caminhei + pessoa.caminhouQuantosMetros + ' ' + metrosCaminhados;
+  return 'Olá, eu sou ' + mensagemSexo + pessoa.nomeCompleto() + ' tenho ' + pessoa.idade + ' ' + mensagemIdade + pessoa.mostrarAltura() + ' meu peso é ' + pessoa.mostrarPeso() + ' e, só hoje, eu já caminhei + pessoa.caminhouQuantosMetros + ' ' + metrosCaminhados;
 }
 
 // Agora, apresente-se ;)
