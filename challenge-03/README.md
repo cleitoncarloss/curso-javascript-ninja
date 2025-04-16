@@ -195,10 +195,6 @@ pessoa.apresentacao = function() {
     metrosCaminhados = 'metro'
   }
 
-  mensagemIdade = 'anos'
-  mensagemSexo = 'a'
-  metrosCaminhados = 'metros'
-
   return 'Olá, eu sou ' + mensagemSexo + pessoa.nomeCompleto() + ' tenho ' + pessoa.idade + ' ' + mensagemIdade + pessoa.mostrarAltura() + ' meu peso é ' + pessoa.mostrarPeso() + ' e, só hoje, eu já caminhei ' + pessoa.caminhouQuantosMetros + ' ' + metrosCaminhados;
 }
 
