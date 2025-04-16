@@ -183,8 +183,8 @@ pessoa.apresentacao = function() {
   var mensagemIdade = 'anos';
   var metrosCaminhados = 'metros';
 
-  if(this.sexo === 'Masculino') {
-    mensagemSexo = 'o'
+  if(this.sexo === 'Feminino') {
+    mensagemSexo = 'a'
   }
 
   if(this.idade === 1) {
