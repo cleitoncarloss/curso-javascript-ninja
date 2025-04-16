@@ -199,7 +199,7 @@ pessoa.apresentacao = function() {
   mensagemSexo = 'a'
   metrosCaminhados = 'metros'
 
-  return 'Olá, eu sou ' + mensagemSexo + pessoa.nomeCompleto() + ' tenho ' + pessoa.idade + ' ' + mensagemIdade + pessoa.mostrarAltura() + ' meu peso é ' + pessoa.mostrarPeso() + ' e, só hoje, eu já caminhei + pessoa.caminhouQuantosMetros + ' ' + metrosCaminhados;
+  return 'Olá, eu sou ' + mensagemSexo + pessoa.nomeCompleto() + ' tenho ' + pessoa.idade + ' ' + mensagemIdade + pessoa.mostrarAltura() + ' meu peso é ' + pessoa.mostrarPeso() + ' e, só hoje, eu já caminhei ' + pessoa.caminhouQuantosMetros + ' ' + metrosCaminhados;
 }
 
 // Agora, apresente-se ;)
